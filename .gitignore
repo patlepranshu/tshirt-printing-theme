@@ -1,0 +1,19 @@
+# Ignore uploads and WP internals
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+
+/wp-content/plugins/
+wp-config.php
+.env
+*.sql
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
