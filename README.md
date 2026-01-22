@@ -1,87 +1,81 @@
-# T-Shirt Printing WordPress Child Theme
+# Custom T-Shirt Printing WooCommerce Website
 
-This is a custom child theme built on top of the **Hello Elementor** parent theme.  
-It is created for a T-Shirt Printing Website with WooCommerce functionality, custom upload fields, and Elementor-based templates.
+A custom WooCommerce-based t-shirt printing website built on WordPress, 
+focused on advanced single product customization and dynamic pricing logic.
 
----
-
-## 🚀 Features
-- Custom WooCommerce enhancements  
-- Elementor-based header/footer and pages  
-- Child theme structure following WordPress coding standards  
-- Custom functions added using hooks & filters  
-- Bootstrap integrated for UI components  
-- Git version control integration  
-- Clean and scalable theme architecture  
+This project demonstrates both frontend and backend WordPress & WooCommerce 
+development skills.
 
 ---
 
-## 🛠️ Tech Stack
-- WordPress 6.x  
-- WooCommerce  
-- PHP 7.4+  
-- Hello Elementor (Parent Theme)  
-- Elementor / Elementor Pro  
-- Bootstrap (via CDN)  
-- Git & GitHub  
+## Project Overview
+
+The goal of this project is to allow users to:
+- Select a t-shirt product with size and color variations
+- Customize the product with text and images
+- Preview front and back views of the product
+- See dynamic price updates based on customization options
+- Add customized products to cart and checkout
 
 ---
 
-## 📁 Project Structure
-tshirt-printing-child-theme/
-│── functions.php
-│── style.css
-|── header.php
-|── footer.php
-│── /woocommerce-overrides
-│── /assets
-│ ├── css/
-│ ├── js/
-│ └── images/
+## Key Features
 
-
----
-
-## ⚙️ Installation (LocalWP)
-1. Download & install LocalWP  
-2. Create a new WordPress site  
-3. Upload the parent theme (Hello Elementor)  
-4. Upload the child theme folder  
-5. Activate the child theme  
-6. Go to Settings → Permalinks → Save  
+- Custom WooCommerce single product page
+- Text customization (font, size, color, alignment)
+- Image upload & removal functionality
+- Front view & back view customization
+- Dynamic pricing based on:
+  - Product variations
+  - Text customization
+  - Image customization
+- WooCommerce cart & checkout integration
+- Admin-side order data handling (in progress)
 
 ---
 
-## 🧩 WooCommerce Setup
-1. Install WooCommerce  
-2. Run setup wizard  
-3. Create Shop / Cart / Checkout pages  
-4. Add sample products  
-5. Add custom fields using hooks in `functions.php`  
+## Tech Stack
+
+- WordPress
+- WooCommerce
+- PHP (WordPress hooks & customization)
+- JavaScript
+- HTML5 & CSS3
+- Elementor (Free)
 
 ---
 
-## 💻 Development Workflow
-git status
-git add .
-git commit -m "feat: added single product upload field"
-git push origin main
+## Development Approach
 
-
----
-
-## 📦 Requirements
-- PHP 7.4+  
-- MySQL 5.7+  
-- Elementor  
+- Custom functionality built using WooCommerce hooks & filters
+- JavaScript used for frontend interactions and preview handling
+- Pricing logic handled dynamically based on user selections
+- Clean separation between frontend UI and backend logic
 
 ---
 
-## 🧑‍💻 Author
-**Pranshu Patle**  
-Front-End Developer & UI/UX Designer
+## Project Status
+
+This project is currently under active development.
+
+Planned enhancements include:
+- Saving customized preview images with orders
+- Displaying customization previews in cart, checkout & admin
+- Email integration for order confirmation
 
 ---
 
-## 📄 License
-MIT 
+## Repository Structure
+
+- `main` – Stable version of the project
+- `feature/woocommerce-setup` – Feature development and WooCommerce setup
+
+---
+
+## Author
+
+Developed by **Pranshu Patle**  
+Senior WordPress & WooCommerce Developer
+
+Portfolio:
+https://www.notion.so/Pranshu-Patle-278539585a4b80a6bad2d221cfb82f2c?source=copy_link
