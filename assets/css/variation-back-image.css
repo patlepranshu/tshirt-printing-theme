@@ -1,0 +1,55 @@
+/* FORCE CLICKABILITY INSIDE VARIATIONS */
+.back-image-wrapper {
+    position: relative;
+    z-index: 1;
+    pointer-events: auto !important;
+}
+.back-image-preview img {
+  max-width: 100px;
+  display: block;
+  margin-top: 8px;
+}
+
+
+/* ===============================
+ * FRONT / BACK BUTTON UI
+ * =============================== */
+.sp-front-back-btn {
+    padding: 8px 16px;
+    border: 1px solid #000;
+    background: #fff;
+    cursor: pointer;
+}
+
+.sp-front-back-btn.active {
+    background: #F5832A;
+    color: #fff;
+}
+
+/* ===============================
+ * ADMIN BACK IMAGE AREA (SAFE)
+ * =============================== */
+
+.back-image-wrapper {
+    position: relative;
+    z-index: 1;
+    pointer-events: auto;
+}
+
+/* Ensure gallery image remains interactive */
+.woocommerce-product-gallery img {
+    pointer-events: auto;
+}
+
+/* Place front/back buttons below product image */
+.woocommerce-product-gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.sp-front-back-wrapper {
+    order: 2;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
