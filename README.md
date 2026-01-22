@@ -77,5 +77,7 @@ Planned enhancements include:
 Developed by **Pranshu Patle**  
 Senior WordPress & WooCommerce Developer
 
-Portfolio:
-https://www.notion.so/Pranshu-Patle-278539585a4b80a6bad2d221cfb82f2c?source=copy_link
+Portfolio: https://www.notion.so/Pranshu-Patle-278539585a4b80a6bad2d221cfb82f2c?source=copy_link
+
+Note: Initial planning, experimentation, and learning were done earlier. 
+Core implementation and feature development started recently.

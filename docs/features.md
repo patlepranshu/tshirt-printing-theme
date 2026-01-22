@@ -46,4 +46,3 @@ Clearly separated:
 ---
 
 ✔ This theme is built with performance, clarity, and extensibility in mind.
-

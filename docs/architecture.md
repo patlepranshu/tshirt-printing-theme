@@ -11,7 +11,6 @@ hello-elementor-child/
 │
 ├── assets/                → CSS, JS, Images
 ├── includes/              → All PHP modules
-├── docs/                  → Documentation
 ├── functions.php          → Loads modules from includes/
 ├── style.css              → Theme header + base styles
 └── README.md
@@ -42,7 +41,6 @@ require_once get_stylesheet_directory() . '/includes/custom-hooks.php';
 require_once get_stylesheet_directory() . '/includes/woo-functions.php';
 require_once get_stylesheet_directory() . '/includes/single-product-banner.php';
 require_once get_stylesheet_directory() . '/includes/variation-back-image.php';
-
 ```
 
 ---
@@ -54,4 +52,5 @@ This architecture keeps your theme:
 - Scalable  
 - Easy for other developers to understand  
 - Professional for GitHub & portfolio  
+
 
