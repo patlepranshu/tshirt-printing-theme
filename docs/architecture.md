@@ -11,9 +11,7 @@ hello-elementor-child/
 │
 ├── assets/                → CSS, JS, Images
 ├── includes/              → All PHP modules
-├── templates/             → Custom template parts
-├── woocommerce/           → WooCommerce template overrides
-├── docs/                  → Documentation
+├── docs/                  → Documentatio
 ├── functions.php          → Loads modules from includes/
 ├── style.css              → Theme header + base styles
 └── README.md
@@ -60,6 +58,8 @@ templates/global-header.php
 require_once get_stylesheet_directory() . '/includes/enqueue.php';
 require_once get_stylesheet_directory() . '/includes/custom-hooks.php';
 require_once get_stylesheet_directory() . '/includes/woo-functions.php';
+require_once get_stylesheet_directory() . '/includes/single-product-banner.php';
+require_once get_stylesheet_directory() . '/includes/variation-back-image.php';
 ```
 
 ---
@@ -71,4 +71,3 @@ This architecture keeps your theme:
 - Scalable  
 - Easy for other developers to understand  
 - Professional for GitHub & portfolio  
-
